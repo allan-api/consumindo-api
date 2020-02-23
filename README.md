@@ -39,7 +39,7 @@ Entre com o password:
 
 
 ## 
-## Criando tabela e inserindo valores
+## Criando as tabelas no banco de dados
 
 No terminal, execute o comando `php artisan migrate` para criar as tabelas em seu banco;
 
