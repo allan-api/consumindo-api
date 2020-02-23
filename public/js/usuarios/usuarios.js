@@ -102,15 +102,19 @@ function viacep(){
 			url: 'https://viacep.com.br/ws/' + cep + '/json/unicode/',
             dataType: 'json',
 			success: function(resposta){
-                console.log(resposta);
-				$("#logradouro").val(resposta.logradouro);
-				$("#complemento").val(resposta.complemento);
-				$("#bairro").val(resposta.bairro);
-				$("#cidade").val(resposta.localidade);
-                $("#uf").val(resposta.uf);
-                $( "#numero" ).focus();
-			}
-		});
+                    console.log('if');
+                    $("#logradouro").val(resposta.logradouro);
+                    $("#complemento").val(resposta.complemento);
+                    $("#bairro").val(resposta.bairro);
+                    $("#cidade").val(resposta.localidade);
+                    $("#uf").val(resposta.uf);
+                    $( "#numero" ).focus();
+                },
+                error: function(){
+                    console.log('else');
+                    alert("Desculpa, não encontramos esse cep")
+                }
+            });
 
 }
 function cadastrar() {

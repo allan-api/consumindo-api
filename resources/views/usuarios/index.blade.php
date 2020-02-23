@@ -48,7 +48,11 @@ Usuários cadastrado
         </table>
         <h4 style="margin-top:20px" id="mensagem"></h4>
     </div>
-    {{  $usuarios->fragment('foo')->links() }}
+    {{-- <div class="container"> --}}
+        <div class="row justify-content-md-center">
+            {{  $usuarios->fragment('foo')->links() }}
+        </div>
+    {{-- </div> --}}
 </div>
 
 @endsection

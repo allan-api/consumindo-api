@@ -13,7 +13,7 @@ class User extends Model
 
     public function indexModel()
     {
-        return self::orderby('id', 'desc')->paginate();
+        return self::orderby('id', 'desc')->paginate(5);
     }
 
 
