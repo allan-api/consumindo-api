@@ -11,7 +11,9 @@
 ## Configurando a aplicação
 
 Será necessário configurar o `.env` no projeto;
+
 Defina em `DB_USERNAME=` o seu username do mysql; 
+
 Defina em `DB_PASSWORD=` o sua senha do mysql; 
 
 Utilize o comando `composer update` para atualizar as dependências;
@@ -32,7 +34,7 @@ C:\> cd xampp\mysql\bin
 3. Execute `mysql.exe -u root -p`
 Entre com o password:
 
-4. Depois Execute o comando `CREATE DATABASE funcionarios`
+4. Depois Execute o comando `CREATE DATABASE users`
 
 
 
@@ -40,9 +42,6 @@ Entre com o password:
 ## Criando tabela e inserindo valores
 
 No terminal, execute o comando `php artisan migrate` para criar as tabelas em seu banco;
-
-
-Execute `php artisan db:seed` para que seja inserido 20 funcionários no banco ;)
 
 
 ## 
