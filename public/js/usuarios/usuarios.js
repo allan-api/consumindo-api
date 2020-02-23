@@ -33,7 +33,7 @@ function montaTabela (value){
     html +=  "<td>" + value.celular + "</td>";
     html +=  "<td>" + value.cep + "</td>";
     html +=  "<td><a href='usuarios/editar?id=" + value.id + "' onclick='edit(" + value.id + ")' class='btn btn-info'>Editar</a></td>";
-    html +=  "<td><a style='color: #FFF' onclick='destroy(`" + value.id + "`, `" + value.nome + "`)' class='btn btn-danger'>Excluir</a></td>";                        
+    html +=  "<td><a style='color: #FFF' onclick='excluir(`" + value.id + "`, `" + value.nome + "`)' class='btn btn-danger'>Excluir</a></td>";                        
     html +=  "<tr>";
     
     $('#listaConteudo').append(html)
