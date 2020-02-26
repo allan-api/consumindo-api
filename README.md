@@ -54,11 +54,6 @@ Utilize o artisan como servidor com `php artisan serve --port=8000`;
 Acesse o projeto em http://localhost:8000/home/usuarios pois já estamos com tudo pronto!
 
 
-<<<<<<< HEAD
-=======
-A API está no caminho  http://localhost:8000/api/usuarios 
->>>>>>> a99ee363ab7f43bf2d058ffc5201344f11636af6
-
 ## API
 
 A documentação da API está no arquivo  `help\api.md` na raiz da aplicação.
