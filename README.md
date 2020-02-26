@@ -55,7 +55,7 @@ Acesse o projeto em http://localhost:8000/home/usuarios pois já estamos com tud
 
 A paginação acontece a cada 5 usuários.
 
-A API está no caminho  http://localhost:8000/api/usuarios pois já estamos com tudo pronto!
+A API está no caminho  http://localhost:8000/api/usuarios 
 
 
 
