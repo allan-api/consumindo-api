@@ -14,16 +14,16 @@ Será necessário configurar o `.env` no projeto;
 
 Defina em `DB_USERNAME=` o seu username do mysql; 
 
-Defina em `DB_PASSWORD=` o sua senha do mysql; 
+Defina em `DB_PASSWORD=` a sua senha do mysql; 
 
 Utilize o comando `composer update` para atualizar as dependências;
 
 
 
 ## 
-## Criando banco de dados "funcionarios"
+## Criando banco de dados "users"
 
-Utilizaremos o banco MySQL, certifique-se de que o tenha, crie um banco de dados vazio com o nome `funcionarios`;
+Utilizaremos o banco MySQL, certifique-se de que o tenha, crie um banco de dados vazio com o nome `users`;
 
 1. Acesse o console do DOS:
 windows > executar > cmd
